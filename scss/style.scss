@@ -2458,3 +2458,36 @@ font-family: 'Roboto', sans-serif;
       margin-top: 14px;
    }
 }
+
+@media (max-width: 375px) {
+   .popup__img img {
+      width: 320px;
+      height: auto;
+      margin: 0 auto;
+   }
+
+   .popup__top {
+      max-width: 375px;
+      margin: 0 auto;
+      justify-content: normal;
+   }
+
+   .popup__actions {
+      gap: 0 15px;
+      margin-right: 15px;
+      margin-left: auto;
+   }
+
+   .popup__close {
+      margin-right: auto;
+   }
+
+   .popup__info-text {
+      max-width: 320px;
+   }
+
+   .popup__info-tilte {
+      max-width: 320px;
+      font-size: 28px;
+   }
+}
