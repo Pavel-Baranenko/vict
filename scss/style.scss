@@ -1726,15 +1726,18 @@ font-family: 'Roboto', sans-serif;
 
       &__info {
          width: 375px;
-         height: 406px;
-         overflow: hidden;
          padding: 32px 16px 0 16px;
          border-radius: 16px 16px 0 0;
          max-width: 375px;
       }
 
       &__info-text {
-         overflow-y: auto;
+         height: 406px;
+
+         p {
+            overflow-y: auto;
+            padding-bottom: 100%;
+         }
       }
    }
 
