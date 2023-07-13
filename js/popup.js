@@ -7,6 +7,7 @@ var triggerVert = document.querySelectorAll(".trigger-vert");
 
 function toggleModal() {
   modal.classList.toggle("show-modal");
+  document.querySelector("body").classList.toggle('no__scroll');
 }
 
 function windowOnClick(event) {
